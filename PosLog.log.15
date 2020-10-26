@@ -1,0 +1,14 @@
+2020-10-25 23:25:09,403 FATAL (null) MoneyFarmTest.HomeBanking TestMoneyFarm - 45 
+ Test exception:  NUnit.Framework.MultipleAssertException: Multiple failures or warnings in test:
+  1)   Expected: in range (1,6)
+  But was:  7
+
+  2)   Expected string length 18 but was 40. Strings differ at index 0.
+  Expected: "invalid-parameters", ignoring case
+  But was:  "Your request parameters didn't validate."
+  -----------^
+
+
+   in NUnit.Framework.Assert.Multiple(TestDelegate testDelegate) in D:\a\1\s\src\NUnitFramework\framework\Assert.cs:riga 333
+   in MoneyFarmTest.HomeBanking.TestMoneyFarm() in D:\MoneyFarm\MoneyFarmTest\MoneyFarmTest\Program.cs:riga 45
+ 
